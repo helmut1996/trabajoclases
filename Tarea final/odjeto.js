@@ -7,12 +7,12 @@
 				var estudiante={
 					nombre: "Lesbia",
  					 apellido: "Lacayo",
-                    edad:"40"
+                    edad:40
 					};
 
 				var empleado={
 					cargo:"Docente",
-					salario: "10,000",
+					salario: "10,000"
                     
 					};
 
@@ -33,14 +33,13 @@
 					if(i==0){
 					  arreglo[i]=persona.nombre + " " + persona.apellido+ " "+ persona.edad;
 					  }	else  if(i==1){
- 						arreglo[i]=estudiante.nombre + " " + estudiante.apellido + "" +estudiante.edad;
+ 						arreglo[i]=estudiante.nombre + " " + estudiante.apellido + " " + estudiante.edad;
  						}else if(i==2)	{
  							arreglo[i]=empleado.cargo + " "+ empleado.salario;
  						}else if(i==3){
  							arreglo[i]=clase.nombre + " " + clase.turno;
  						}else if(i==4){
- 							arreglo[i]=carrera.nombre + " "+
-                                carrera.año;
+ 							arreglo[i]=carrera.nombre + " "+ carrera.año;
  						}
  
 				};
