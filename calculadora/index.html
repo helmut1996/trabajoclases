@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora</title>
+	<script >
+	function suma(){
+	var n1= Number(document.getElementById('num1')).value);
+	var n2= Number(document.getElementById('num2')).value);
+	var resul= n1+n2; 
+	document.getElementById('res').value=resul;
+}
+	
+	</script>
+</head>
+<body>
+
+<label for="">Calculadora</label>
+	
+		Numero1 &nbsp;<input type="text"  id="num1"><br><br>
+		Numero2 &nbsp;<input type="text" id="num2"><br><br>
+		Resultado &nbsp;<input type="text"  id="res"><br><br>
+		Suma &nbsp;<input type="button" value="+" onclick="suma()">
+		&nbsp;Resta &nbsp;<input type="button" value="-">
+		&nbsp;Multiplicacion &nbsp;<input type="button" value="x">
+		&nbsp;Resta &nbsp;<input type="button" value="/">
+		
+	
+</body>
+</html>
