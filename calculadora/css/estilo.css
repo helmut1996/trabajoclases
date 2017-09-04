@@ -1,0 +1,16 @@
+#principal{
+	text-align: center;
+	font-family: fantasy;
+	margin: 450px;
+	font-size: 30px;
+}
+
+label{
+	margin: 500px;
+}
+
+input{
+	margin-left: 500px;
+}
+
+
