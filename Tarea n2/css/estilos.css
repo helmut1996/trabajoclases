@@ -1,0 +1,56 @@
+body{
+    background-color: gray;
+}
+.menu ul{
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	background-color: bisque;
+}
+.menu li{
+	text-align: center;
+	flex-grow: 1;
+	border-right: 1px solid black;
+}
+
+.menu li:hover{
+	background: rgba(0,0,0,0.3);
+	
+	
+}
+
+.menu li a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: fantasy;
+}
+
+div{
+	border: 1px solid black;
+	margin-left: 30%;
+	background-color: coral; 
+	width: 50%;
+	color: white;
+}
+form{
+	margin: 50px;
+}
+header {
+	text-align: center;
+	font-family: fantasy;
+	color: white;
+}
+
+section{
+	border: 1px solid black;
+	margin-left: 30%;
+	background-color: coral; 
+	width: 50%;
+	color: white;
+	height: 30%;
+	
+}
