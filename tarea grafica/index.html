@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>menu</title>
+	<script src="page.js"></script>
+</head>
+<body>
+	<header>
+    <h1>menu con page.js</h1>
+	</header>
+	
+<nav>
+	<ul>
+	<li><a href="/">Inicio</a></li>
+	<li><a href="/about">Mensaje2</a></li>
+	<li><a href="/user">/usuarios</a></li>
+	</ul>
+</nav>
+
+<p></p>
+
+<script >
+page('/', index)
+page('/about', about)
+page('/user', user)
+page()
+
+function index(){
+	document.querySelector('p')
+	.textContent = 'hola mundo'
+}
+
+
+function about(){
+	document.querySelector('p')
+	.textContent = 'Hola Profesor'
+}
+
+
+function user(){
+	document.querySelector('p')
+	.textContent = 'Usuario1'
+}
+</script>
+</body>
+</html>
